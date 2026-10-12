@@ -1,6 +1,8 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
+    // Walkthrough: Step 2
+    id("org.jetbrains.dokka") version "2.2.0"
 }
 
 android {
